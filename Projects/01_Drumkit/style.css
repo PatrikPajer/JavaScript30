@@ -13,6 +13,8 @@ html, body {
 body {
 	display: flex;
 	align-items: center;
+
+	background-image: radial-gradient(#000055, #000022);
 }
 
 .key_div {
@@ -36,7 +38,7 @@ body {
 	height: 100%;
 	width: 100%;
 
-	border: 3px black solid;
+	border: 3px white solid;
 
 	text-align:center;
 
