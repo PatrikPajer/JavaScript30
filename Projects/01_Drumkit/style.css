@@ -39,6 +39,8 @@ body {
 	border: 3px black solid;
 
 	text-align:center;
+
+	transition: all 0.12s;
 }
 
 #key1 {
@@ -60,4 +62,9 @@ body {
 kbd {
 	font-size: 10rem;
 	display: block;
+}
+
+.playing {
+	transform:scale(1.1);
+	border: white;
 }
